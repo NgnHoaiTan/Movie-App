@@ -1,0 +1,18 @@
+@import "../../common/colors.scss";
+.movie-list,.show-list{
+    margin:20px 0;
+    padding: 5px 0;
+    h2{
+        color:white;
+        margin-bottom:10px ;
+        font-weight: 600;
+    }
+}
+
+.movies-container, .shows-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 15px;
+
+    
+}

@@ -1,0 +1,41 @@
+@import "../../common/colors.scss";
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.search-bar-form{
+    background-color: #484848;
+    padding: 2px 5px;
+    border-radius: 50px;
+    
+}
+.search-bar-form input{
+    width: 500px;
+    padding: 5px 8px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: rgb(231, 231, 231);
+    border-radius: 30px;
+    background-color: transparent;
+    
+}
+.search-bar-form button{
+    background-color: transparent;
+    color: white;
+    padding: 5px 8px ;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    border: none;
+}
+
+.banner-img{
+    width: 100%;
+    
+}
+.banner-img img{
+    object-fit: cover;
+}

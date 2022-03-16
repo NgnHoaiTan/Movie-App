@@ -1,0 +1,75 @@
+@import "../../common/colors.scss";
+.movie-container{
+    width: 100%;
+    
+    padding: 40px 0;
+    color:white;
+    display: flex;
+    
+}
+
+.poster-movie{
+    margin-right: 20px;
+    width: 300px;
+    
+    img{
+        width: 300px;
+        object-fit: cover;
+        
+    }
+}
+.movie-title{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.movie-rating{
+    display: flex;
+    color:rgb(166, 166, 253);
+    p{
+        margin-right: 15px;
+    }
+}
+.rating-star i{
+    padding: 0 5px;
+    color:rgb(248, 204, 6)
+}
+.plot-movie{
+    line-height: 1.4rem;
+}
+.other-info > div p{
+    padding:5px 0;
+    color: $font-primary;
+    font-weight: 600;
+    width: 80px;
+    display: inline-block;
+}
+.other-info > div span{
+    color: rgb(166, 166, 253)
+}
+.btn-watch{
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: rgb(39, 110, 202);
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.genres-list{
+    margin: 20px 0;
+}
+.genres-list span{
+    padding: 5px 8px;
+    background-color: #252525;
+    color: white;
+    border-radius: 20px;
+    margin-right: 8px;
+    
+}
+.similar h3{
+    font-weight: 600;
+    color: white;
+
+}
